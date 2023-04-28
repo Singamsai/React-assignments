@@ -1,0 +1,65 @@
+.assignment06{
+    height: 100vh;
+    width: 100vw;
+}
+.assignment06_header{
+    height: 10vh;
+    width: 100%;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.assignment06_header_left{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.assignment06_header_left ul{
+    display: flex;
+    list-style: none;
+    gap:2rem;
+    font-weight: 500;
+}
+.assignment06_header_right{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    color: gray;
+}
+.assignment06_header_right button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: red;
+    padding: .5rem 1rem;
+}
+.assignment06_body{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(8, 8, 61);
+    color: white;
+}
+.assignment06_body button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: red;
+    padding: .5rem 1.5rem;
+    font-size: 1.3rem;
+}
+.assignment06_footer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.assignment06_footer h2{
+    margin: 1rem 0 1.5rem 0;
+}

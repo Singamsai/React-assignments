@@ -1,0 +1,32 @@
+.homework05{
+    height: 100%;
+    width: 100%;
+
+}
+.homework05_nav{
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem    3rem;
+    margin-top: 20px;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+.homework05_nav li{
+    padding: 1rem
+}
+.homework05_nav li:hover{
+    background-color: rgb(136, 55, 55);
+}
+.homework05_body{
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    height: 70%;
+    text-align: center;
+    padding: 12rem ;
+}

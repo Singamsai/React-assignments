@@ -1,0 +1,42 @@
+.homework13{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.homework13_input input,button{
+    padding: .5rem 1rem;
+    font-size: 1.3rem;
+}
+.homework13 h1{
+    font-size: 3rem;
+    padding: 1rem;
+}
+.homework13_products{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 2rem ;
+}
+.homework13_product{
+    box-shadow: 0 0 3px black;
+    margin: 1rem;
+    width: 400px;
+    height: 480px;
+    padding: 1.5rem;
+}
+.homework13_product p{
+    color: black;
+    text-align: start;
+    
+}
+.homework13_product button{
+    font-size: .8rem;
+    margin: .8rem;
+    padding: .5rem 2.5rem;
+    border:none;
+    outline: none;
+    background-color: blueviolet;
+    color:white;
+    font-weight: 600;
+    align-items: flex-end;
+}
